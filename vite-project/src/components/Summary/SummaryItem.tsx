@@ -6,7 +6,7 @@ function SummaryItem({
   itemValue: number;
 }) {
   return (
-    <article className="flex flex-row justify-between bg-pink-200 w-36 rounded-sm p-2">
+    <article className="flex justify-between bg-pink-200 rounded-sm p-2 gap-12">
       <h3>{itemName}</h3>
       <span className="bg-pink-800 rounded-sm text-white px-2">
         {itemValue}
